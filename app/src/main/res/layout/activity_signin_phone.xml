@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/verifyAct"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    >
+    <TextView
+        android:id="@+id/txtLetsverifyyo"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_21pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:layout_marginTop="@dimen/_20pxv"
+        android:layout_width="match_parent"
+        android:text="Verify your mobile number"
+        style="@style/txtInterbold32"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/btnHelp"
+        android:layout_below="@+id/txtLetsverifyyo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_21pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:layout_marginTop="@dimen/_20pxv"
+        android:hint="Enter Your Number"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_mob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnHelp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:ellipsize="end" android:gravity="center"
+        android:id="@+id/btnGetStarted"
+        android:layout_below="@id/otpLayout"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20pxv"
+        android:layout_marginEnd="@dimen/_24pxh"
+        android:layout_marginStart="@dimen/_24pxh"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/_17pxv"
+        android:paddingEnd="@dimen/_30pxh"
+        android:paddingStart="@dimen/_30pxh"
+        android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+        android:text="Verify number"
+        android:textAllCaps="false" style="@style/btnSolidRounded_1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:ellipsize="end" android:gravity="center"
+        android:layout_below="@+id/btnGetStarted"
+        android:id="@+id/btnGetStarted2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20pxv"
+        android:layout_marginEnd="@dimen/_24pxh"
+        android:layout_marginStart="@dimen/_24pxh"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/_17pxv"
+        android:paddingEnd="@dimen/_30pxh"
+        android:paddingStart="@dimen/_30pxh"
+        android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+        android:text="Sumbit"
+        android:visibility="gone"
+        android:textAllCaps="false" style="@style/btnSolidRounded_1" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/btnHelp2"
+            android:layout_below="@+id/txt_mob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_20pxv"
+            android:hint="Enter OTP"
+            android:visibility="gone"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/otpfillupfiled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/otpLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_21pxh"
+        android:layout_marginStart="@dimen/_21pxh"
+        android:layout_marginTop="@dimen/_20pxv"
+        android:layout_below="@+id/btnHelp2"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="Did not receive the code?"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/btn_reenter"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="Re-Send"
+            android:textColor="@color/purple_700"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btn_timer"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="30"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    </RelativeLayout>

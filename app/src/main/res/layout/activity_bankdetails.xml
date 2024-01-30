@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loanActivity.Loanlimit"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:gravity="start">
+
+    <LinearLayout android:id="@+id/linearScreenSix"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentInsetEnd="0dp"
+                app:contentInsetStart="0dp"
+                android:background="#FFFFFF"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="16dp"
+                    >
+
+                        <ImageView
+                            android:id="@+id/ms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_24pxh"
+                            android:layout_marginStart="@dimen/_24pxh"
+                            android:layout_marginTop="@dimen/_7pxh"
+                            android:layout_marginBottom="@dimen/_7pxh"
+                            android:padding="@dimen/_8pxv"
+                            android:src="@drawable/img_arrowleft"/>
+
+
+                    <ImageView
+                        android:id="@+id/msc1"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_toLeftOf="@+id/msc"
+                        android:layout_marginEnd="15dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_help" />
+
+                    <ImageView
+                        android:id="@+id/msc"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:scaleType="fitXY"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_notifications_none" />
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout android:gravity="start"
+            android:id="@+id/frameStackuser"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_1pxv" android:layout_width="match_parent">
+            <RelativeLayout
+                android:id="@+id/ttt"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+            <ProgressBar
+                android:id="@+id/pg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="#111111"
+                style="?android:attr/progressBarStyle"
+                android:layout_centerInParent="true"/>
+            <LinearLayout android:id="@+id/linearColumnprice"
+                android:layout_gravity="top|start"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Update Your Bank Details"
+                    android:textSize="22sp"
+                    android:textColor="#111111"
+                    android:textStyle="normal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:padding="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Instant Bank Transfer"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:paddingStart="5dp"
+                    android:includeFontPadding="false"
+                    android:fontFamily="sans-serif"
+                    />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/btnHelp"
+                    android:layout_below="@+id/txtLetsverifyyo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_20pxv"
+                    android:hint="Bank Acount Number"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/num"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/btnHelpa"
+                    android:layout_below="@+id/txtLetsverifyyo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_20pxv"
+                    android:hint="ISFC Code"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/numa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/btnHelpB"
+                    android:layout_below="@+id/txtLetsverifyyo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_20pxv"
+                    android:hint="Bank Name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/numb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/btnHelpc"
+                    android:layout_below="@+id/txtLetsverifyyo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:layout_marginTop="@dimen/_20pxv"
+                    android:drawablePadding="@dimen/_17pxv"
+                    android:padding="@dimen/_17pxv"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    app:drawableStartCompat="@drawable/img_arrowright"
+                    android:text="Upload Bank Statement"
+                   />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="*upload in .pdf format and all details are match otherwise rejected your loan application"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="@dimen/_21pxh"
+                    android:layout_marginStart="@dimen/_21pxh"
+                    android:paddingStart="5dp"
+                    android:includeFontPadding="false"
+                    android:fontFamily="sans-serif"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnGetStarted"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_165pxv"
+                    android:layout_marginBottom="@dimen/_20pxv"
+                    android:layout_marginEnd="@dimen/_24pxh"
+                    android:layout_marginStart="@dimen/_24pxh"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_17pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+                    android:text="Sumbit"
+                    android:textAllCaps="false" style="@style/btnSolidRounded_1" />
+            </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

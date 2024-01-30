@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Loan Cash</string>
+<!--    <string name="default_web_client_id" translatable="false">486152812668-93rrjjm3d0qu2i3nhl8tptb3hmmens7j.apps.googleusercontent.com</string>-->
+    <string name="loading">Loading?</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <!--TODO ENTER YOUR APP ID BELOW-->
+    <string name="facebook_app_id" />
+    <!--TODO ENTER YOUR APP ID BELOW (eg: fb0123456789)-->
+    <string name="fb_login_protocol_scheme">fb</string>
+    <!--TODO ENTER YOUR Client Token BELOW-->
+    <string name="facebook_client_token" />
+    <string name="msg_files_media">Files &amp; media
+
+We shall ask to access the files and media, in order to enable you to upload documents, images etc. solely for the purpose of onboarding or KYC checks and facilitate lending services and as per the requirements of lending partners or applicable law.</string>
+    <string name="msg_see_emi_calcula">See EMI calculator</string>
+    <string name="lbl_2_00_000">$2,00,000</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="msg_by_pressing_co">"By pressing 'Continue', you agree to
+ LoanCash's Terms &amp; policies. You also agree to CIBIL Terms &amp; Conditions and allow Tapstart to access your information stored with CIBIL."</string>
+    <string name="msg_we_need_these_p">We need these permissions to continue</string>
+    <string name="msg_cryptobabydog_g">cryptobabydog@gmail.com</string>
+    <string name="msg_manage_your_acc">Manage your account info</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_menu">Menu</string>
+    <string name="lbl_valid_thru">Valid thru</string>
+    <string name="msg_sms_our_app_co">SMS
+
+Our app collects, stores and transmits to MoneyTap servers, relevant information from text messages (SMS) that you receive from service &amp; product providers (such as retailers, financial institutions, mobile carriers, and utility companies) with your specific consent. This helps us improve your access to financial services and products, &amp; to enable quick disbursals. We will only access business messages from alphanumeric senders and use this information solely to provide our services.
+
+We do not collect, read, or store personal SMSS. We will use this information to facilitate lending services and as per the requirements of lending partners or applicable law.</string>
+    <string name="msg_by_pressing_co2">"By pressing 'Continue', you agree to
+ LoanCash's"</string>
+    <string name="msg_terms_policie"> Terms &amp; policies</string>
+    <string name="lbl_cvv">CVV</string>
+    <string name="msg_all_your_transa">All your transaction related notifications, and other credit related information will be sent to this email ID .</string>
+    <string name="msg_apps_permission">Apps permissions</string>
+    <string name="msg_you_also_agre">. You also agree to </string>
+    <string name="lbl_4321">4321</string>
+    <string name="lbl_get_started">Get started</string>
+    <string name="msg_for_the_purpose2">For the purpose of </string>
+    <string name="lbl_4567">4567</string>
+    <string name="msg_you_re_so_close">You\u2019re so close to knowing your credit limit</string>
+    <string name="msg_here_are_more_w">HERE ARE MORE WAYS TO GET MONEY</string>
+    <string name="msg_version_4_4_6_4">Version 4.4.6(442)</string>
+    <string name="msg_continue_to_per">Agree &amp; Continue to permissions</string>
+    <string name="lbl_hello">Hello!</string>
+    <string name="msg_change_email_id">Change email ID?</string>
+    <string name="msg_verified_email">Verified email
+successfully</string>
+    <string name="msg_cibil_terms_c">CIBIL Terms &amp; Conditions</string>
+    <string name="lbl">****</string>
+    <string name="msg_let_s_verify_yo">Let\u2019s verify your email</string>
+    <string name="lbl_690">690</string>
+    <string name="lbl_go_to_website">Go to website</string>
+    <string name="msg_help_and_suppor">Help and support</string>
+    <string name="msg_you_re_going_to">You\u2019re going to INDIALENDES website</string>
+    <string name="lbl_permissions">permissions</string>
+    <string name="msg_and_allow_tapst"> and allow Tapstart to access your information stored with CIBIL.</string>
+    <string name="lbl_from_you"> from you.</string>
+    <string name="lbl_6371185514">6371185514</string>
+    <string name="msg_for_the_purpose">For the purpose of credit risk assessment, we need the following permissions from you.</string>
+    <string name="msg_select_an_amoun">Select an amount to see its EMI plan and interest</string>
+    <string name="msg_continue_with_f">Continue with Facebook</string>
+    <string name="lbl_unlock_now">Unlock now</string>
+    <string name="msg_we_need_the_f">, we need the following </string>
+    <string name="msg_profile_setti">Profile &amp; settings
+Manage your account info</string>
+    <string name="msg_get_credited_up2">Get credited up to
+</string>
+    <string name="msg_continue_with_m">Continue with mobile number</string>
+    <string name="msg_profile_setti2">Profile &amp; settings
+</string>
+    <string name="lbl_moneytap">MONEY TAP</string>
+    <string name="lbl_deepak_rout">DEEPAK ROUT</string>
+    <string name="msg_continue_with_g">Continue with Gmail</string>
+    <string name="lbl_welcome">Welcome!</string>
+    <string name="lbl_tap">TAP</string>
+    <string name="msg_get_credited_up">Get credited up to
+$2,00,000</string>
+    <string name="lbl_credit_line">Credit line</string>
+    <string name="msg_credit_risk_ass">credit risk assessment</string>
+    <string name="lbl_7896">7896</string>
+    <string name="msg_indialendes_a">      INDIALENDES ( a MoneyTap Partner ) may need some more information to process your credit application</string>
+    <string name="msg_complete_the_ap">Complete the application to enjoy 24x7 access to money on your phone</string>
+    <string name="msg_verfiied_your_e">Verfiied your email ID
+cryptobabydog@gmail.com</string>
+    <string name="msg_play_tictactoe">Play TicTacToe game</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="lbl_01_28">01/28</string>
+    <string name="lbl_help">Help?</string>
+    <string name="lbl_complete_now">Complete now</string>
+    <string name="lbl_money">MONEY</string>
+    <string name="msg_terms_policie2">Terms &amp; policies</string>
+    <string name="msg_moneytrap_is_wo">MoneyTrap is World\u2019s 1\u2019st personal line of credit</string>
+</resources>

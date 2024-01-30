@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homefragmentActivity.activitydone">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/rawone"/>
+    <TextView
+        android:id="@+id/limitText"
+        android:layout_below="@id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulation Credited your amount within 1 hours"
+        android:textSize="22sp"
+        android:textColor="#111111"
+        android:textStyle="normal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:fontFamily="sans-serif"
+        />
+
+</RelativeLayout>

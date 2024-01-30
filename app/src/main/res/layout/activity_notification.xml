@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Notification.notificationActivity">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+
+    <TextView android:gravity="center_horizontal"
+        android:id="@+id/txtVerfiiedyoure"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_24pxh"
+        android:layout_marginStart="@dimen/_24pxh"
+        android:layout_marginTop="@dimen/_18pxv"
+        android:layout_width="match_parent"
+        android:text="no notification yet"
+        style="@style/txtInterblack16_1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:ellipsize="end" android:gravity="center"
+        android:id="@+id/btnGetStarted22"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_255pxv"
+        android:layout_marginBottom="@dimen/_20pxv"
+        android:layout_marginEnd="@dimen/_24pxh"
+        android:layout_marginStart="@dimen/_24pxh"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/_17pxv"
+        android:paddingEnd="@dimen/_30pxh"
+        android:paddingStart="@dimen/_30pxh"
+        android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+        android:text="Mark as read"
+        android:textAllCaps="false" style="@style/btnSolidRounded_1" />
+
+    </LinearLayout>
+</ScrollView>
